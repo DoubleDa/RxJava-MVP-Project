@@ -8,4 +8,7 @@
     <string name="tv_person_sex">性别</string>
     <string name="msg_loding">正在加载……</string>
     <string name="msg_error">出错啦……</string>
+    <string name="tv_load_more">下啦加载更多……</string>
+    <string name="tv_title">标题：</string>
+    <string name="tv_time">发布时间：</string>
 </resources>

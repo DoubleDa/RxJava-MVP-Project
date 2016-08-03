@@ -24,6 +24,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0-beta1'
     compile 'com.jakewharton:butterknife:7.0.1'
-
     compile 'com.android.support:design:22.2.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    //rxxxx
+    compile 'io.reactivex:rxjava:x.y.z'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

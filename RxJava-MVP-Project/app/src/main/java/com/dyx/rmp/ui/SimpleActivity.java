@@ -1,12 +1,13 @@
-package com.dyx.rmp;
+package com.dyx.rmp.ui;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.dyx.rmp.R;
+import com.dyx.rmp.base.BaseActivity;
 import com.dyx.rmp.bean.Person;
 import com.dyx.rmp.presenter.PersonInfoPresenter;
 import com.dyx.rmp.view.IShowPersonView;
@@ -15,7 +16,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends Activity implements IShowPersonView {
+public class SimpleActivity extends BaseActivity implements IShowPersonView {
 
     @Bind(R.id.btn_get)
     Button btnGet;
@@ -38,7 +39,6 @@ public class MainActivity extends Activity implements IShowPersonView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
         presenter = new PersonInfoPresenter(this);
 
         pd = new ProgressDialog(this);
@@ -72,8 +72,12 @@ public class MainActivity extends Activity implements IShowPersonView {
 
     @Override
     public void showFailedError() {
-
-
         Snackbar.make(btnGet, getResources().getString(R.string.msg_error), Snackbar.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ButterKnife.unbind(this);
     }
 }

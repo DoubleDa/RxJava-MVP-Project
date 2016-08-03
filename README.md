@@ -211,3 +211,11 @@ public class MainActivity extends Activity implements IShowPersonView {
     }
 }
 ```
+
+
+## 将RxJava、MVP、Retrofit、Picasso结合使用
+
+* ImageView适配
+
+[关于Android imageview 适配问题](http://blog.sina.com.cn/s/blog_4e1e357d0102vhn4.html)
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu">
+        <item>简单应用MVP架构</item>
+        <item>应用MVP架构使用Retrofit进行网络请求</item>
+    </string-array>
+</resources>
