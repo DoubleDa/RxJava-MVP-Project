@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RxJava-MVP-Project</string>
+    <string name="btn_get_person_info">获取人的信息</string>
+    <string name="tv_person_name">姓名</string>
+    <string name="tv_person_age">年龄</string>
+    <string name="tv_person_height">身高</string>
+    <string name="tv_person_widget">体重</string>
+    <string name="tv_person_sex">性别</string>
+    <string name="msg_loding">正在加载……</string>
+    <string name="msg_error">出错啦……</string>
+</resources>
