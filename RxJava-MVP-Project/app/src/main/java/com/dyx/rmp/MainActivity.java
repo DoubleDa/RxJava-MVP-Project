@@ -74,7 +74,7 @@ public class MainActivity extends Activity implements IShowPersonView {
     @Override
     public void showFailedError() {
 
-        
+
         Snackbar.make(btnGet, getResources().getString(R.string.msg_error), Snackbar.LENGTH_SHORT).show();
     }
 }

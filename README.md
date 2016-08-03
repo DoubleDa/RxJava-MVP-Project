@@ -8,4 +8,4 @@
 
 ## 使用MVP架构
 
-![](https://www.on-img.com/chart_image/thumb/57a1976ae4b049fad3019166.png)
+![](https://github.com/DoubleDa/RxJava-MVP-Project/blob/master/images/MVP%E6%9E%B6%E6%9E%84.png?raw=true)
